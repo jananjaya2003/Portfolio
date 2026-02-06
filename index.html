@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jananjaya Bandara - AI Developer, Creative Technologist, 3D & Web Innovator from Sri Lanka">
+    <title>Jananjaya Bandara | AI Developer & Creative Technologist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo" id="logoNav">
+                <span class="logo-text">JB</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-symbol">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-core">JB</div>
+        </div>
+    </div>
+
+    <!-- 3D Canvas Background -->
+    <canvas id="bgCanvas"></canvas>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="name-container">
+                <h1 class="hero-name">
+                    <span class="name-part">Jananjaya</span>
+                    <span class="name-part">Bandara</span>
+                </h1>
+                <div class="name-underline"></div>
+            </div>
+            <p class="hero-subtitle">
+                <span class="subtitle-item">AI Developer</span>
+                <span class="subtitle-dot">•</span>
+                <span class="subtitle-item">Creative Technologist</span>
+                <span class="subtitle-dot">•</span>
+                <span class="subtitle-item">3D & Web Innovator</span>
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button cta-primary">View My Work</a>
+                <a href="#contact" class="cta-button cta-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card glass-panel" data-index="0">
+                    <div class="card-icon">🎓</div>
+                    <h3>Background</h3>
+                    <p>Computer Science student specializing in Artificial Intelligence, based in Sri Lanka. Passionate about building intelligent systems that solve real problems.</p>
+                </div>
+                <div class="about-card glass-panel" data-index="1">
+                    <div class="card-icon">🤖</div>
+                    <h3>Vision</h3>
+                    <p>Creating human-friendly technology that bridges the gap between AI capabilities and everyday life. Currently developing JBee, a table companion robot.</p>
+                </div>
+                <div class="about-card glass-panel" data-index="2">
+                    <div class="card-icon">⚡</div>
+                    <h3>Approach</h3>
+                    <p>Combining cutting-edge AI with thoughtful design. Every project balances innovation with usability, technology with humanity.</p>
+                </div>
+                <div class="about-card glass-panel" data-index="3">
+                    <div class="card-icon">🚀</div>
+                    <h3>Mindset</h3>
+                    <p>Curious builder and problem solver. Exploring robotics, automation, 3D design, and futuristic interfaces to shape tomorrow's digital experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-panel" data-project="0">
+                    <div class="project-visual">
+                        <div class="project-icon">🤖</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>JBee - Human Friendly Table Robot</h3>
+                        <p>An intelligent companion robot built with ESP32-S3, featuring AI vision, audio processing, and autonomous navigation. Designed to be helpful, approachable, and truly interactive.</p>
+                        <div class="project-tags">
+                            <span>Robotics</span>
+                            <span>AI Vision</span>
+                            <span>ESP32</span>
+                            <span>Sensors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel" data-project="1">
+                    <div class="project-visual">
+                        <div class="project-icon">🧠</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Automation Systems</h3>
+                        <p>Intelligent workflow automation platforms using machine learning agents. Streamlining complex processes with smart decision-making and adaptive learning.</p>
+                        <div class="project-tags">
+                            <span>Machine Learning</span>
+                            <span>Automation</span>
+                            <span>AI Agents</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel" data-project="2">
+                    <div class="project-visual">
+                        <div class="project-icon">💻</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web & App Development</h3>
+                        <p>Modern web applications with immersive 3D experiences, responsive design, and seamless user interactions. Building the future of digital interfaces.</p>
+                        <div class="project-tags">
+                            <span>Web Dev</span>
+                            <span>3D Graphics</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-panel" data-project="3">
+                    <div class="project-visual">
+                        <div class="project-icon">🎨</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>3D Design & Concept Art</h3>
+                        <p>Experimental futuristic designs exploring the intersection of form, function, and imagination. Creating visual experiences that inspire and engage.</p>
+                        <div class="project-tags">
+                            <span>3D Modeling</span>
+                            <span>Animation</span>
+                            <span>Concept Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-orb" data-skill="0">
+                    <div class="orb-ring"></div>
+                    <div class="orb-core">
+                        <span class="skill-icon">🧠</span>
+                        <span class="skill-name">Artificial Intelligence</span>
+                    </div>
+                </div>
+                <div class="skill-orb" data-skill="1">
+                    <div class="orb-ring"></div>
+                    <div class="orb-core">
+                        <span class="skill-icon">🔧</span>
+                        <span class="skill-name">Robotics & Embedded</span>
+                    </div>
+                </div>
+                <div class="skill-orb" data-skill="2">
+                    <div class="orb-ring"></div>
+                    <div class="orb-core">
+                        <span class="skill-icon">🌐</span>
+                        <span class="skill-name">Web Development</span>
+                    </div>
+                </div>
+                <div class="skill-orb" data-skill="3">
+                    <div class="orb-ring"></div>
+                    <div class="orb-core">
+                        <span class="skill-icon">🎭</span>
+                        <span class="skill-name">3D Design & Animation</span>
+                    </div>
+                </div>
+                <div class="skill-orb" data-skill="4">
+                    <div class="orb-ring"></div>
+                    <div class="orb-core">
+                        <span class="skill-icon">✨</span>
+                        <span class="skill-name">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="contact-content">
+                <div class="contact-card glass-panel">
+                    <h2>Let's Connect</h2>
+                    <p class="contact-tagline">Let's build something intelligent and meaningful.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Sri Lanka</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <span>Available for Projects</span>
+                        </div>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:contact@jananjaya.com" class="contact-link">
+                            <span>Email</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Jananjaya Bandara. Built with passion and code.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
